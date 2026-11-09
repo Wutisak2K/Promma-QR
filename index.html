@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Promma-QR | สร้าง QR Code ใช้ได้ตลอดไป</title>
 <meta name="description" content="สร้าง QR Code สำหรับลิงก์เว็บและเบอร์โทร ทำงานในเบราว์เซอร์ทั้งหมด ไม่ต้องติดตั้งโปรแกรม และไม่มีวันหมดอายุ">
-<meta name="description" content="พัฒนาโดย ครูวุฒิศักดิ์ ลีพรหมมา งาน ICT โรงเรียนพรหมานุสรณ์จังหวัดเพชรบุรี">
+<meta name="author" content="ครูวุฒิศักดิ์ ลีพรหมมา งาน ICT โรงเรียนพรหมานุสรณ์จังหวัดเพชรบุรี">
 <meta name="theme-color" content="#1B2F4B">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231B2F4B'/%3E%3Cpath fill='%23fff' fill-rule='evenodd' d='M5 5h9v9H5zM7 7v5h5V7zM8.5 8.5h2v2h-2zM18 5h9v9h-9zM20 7v5h5V7zM21.5 8.5h2v2h-2zM5 18h9v9H5zM7 20v5h5v-5zM8.5 21.5h2v2h-2z'/%3E%3Crect x='18' y='18' width='9' height='9' rx='2.5' fill='%23FFC629'/%3E%3C/svg%3E">
 <!--
@@ -50,6 +50,7 @@ a{color:inherit}
 .mark{width:48px;height:48px;flex:none}
 .brand h1{font:500 30px/1.1 var(--font-display);margin:0;letter-spacing:-.005em}
 .brand p{margin:4px 0 0;color:var(--muted);font-size:16px;line-height:1.45}
+.brand p.dev{margin-top:2px;font-size:14.5px;color:var(--ink-2);font-weight:600}
 .mode{display:inline-flex;background:var(--sheet);border:1.5px solid var(--rule-strong);border-radius:999px;padding:4px;gap:2px}
 .mode label{position:relative}
 .mode input,.choice input,.seg input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
@@ -279,7 +280,8 @@ details.more[open] summary{margin-bottom:14px}
     <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1B2F4B"/><path fill="#fff" fill-rule="evenodd" d="M5 5h9v9H5zM7 7v5h5V7zM8.5 8.5h2v2h-2zM18 5h9v9h-9zM20 7v5h5V7zM21.5 8.5h2v2h-2zM5 18h9v9H5zM7 20v5h5v-5zM8.5 21.5h2v2h-2z"/><rect x="18" y="18" width="9" height="9" rx="2.5" fill="#FFC629"/></svg>
     <div>
       <h1>Promma-QR</h1>
-      <p>สร้าง QR Code ได้ทันทีในเบราว์เซอร์ ไม่ต้องติดตั้งโปรแกรม และไม่มีวันหมดอายุ</p>
+      <p>สร้าง QR Code สำหรับลิงก์เว็บและเบอร์โทร ทำงานในเบราว์เซอร์ทั้งหมด ไม่ต้องติดตั้งโปรแกรม และไม่มีวันหมดอายุ</p>
+      <p class="dev">พัฒนาโดย ครูวุฒิศักดิ์ ลีพรหมมา งาน ICT โรงเรียนพรหมานุสรณ์จังหวัดเพชรบุรี</p>
     </div>
   </div>
   <div class="mode" role="radiogroup" aria-label="วิธีสร้าง QR Code">
